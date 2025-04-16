@@ -1,6 +1,7 @@
 import iconStar from "../assets/icon-star.svg"
+import { InputButton } from "./InputButton"
 
-    export function CardInicial ({handleChangeRateNote, handleSubimt}) {
+    export function CardInicial ({handleChangeRateNote, handleSubmit}) {
         return (
             <div className="bg-radial-gradient max-w-103 px-6 pt-6 pb-8 rounded-2xl 
       font-overpass">
@@ -22,7 +23,7 @@ import iconStar from "../assets/icon-star.svg"
         </div>
 
         <button className="bg-orange w-full py-3 rounded-3xl uppercase font-bold
-        tracking-1 hover:bg-white hover:text-orange cursor-pointer transition duration-400" onClick={"handleSubmit"}>Submit</button>
+        tracking-1 hover:bg-white hover:text-orange cursor-pointer transition duration-400" onClick={handleSubmit}>Submit</button>
       </div>
         )
 }
