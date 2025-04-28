@@ -24,11 +24,11 @@ import { InputButton } from "./InputButton"
           improve our offering!</p>
 
         <div className="flex justify-between mb-6">
-        <InputButton value={1} handleChangeRateNote={setRateNote}/>
-        <InputButton value={2} handleChangeRateNote={setRateNote}/>
-        <InputButton value={3} handleChangeRateNote={setRateNote}/>
-        <InputButton value={4} handleChangeRateNote={setRateNote}/>
-        <InputButton value={5} handleChangeRateNote={setRateNote}/>
+        <InputButton value={1} setRateNote={setRateNote}/>
+        <InputButton value={2} setRateNote={setRateNote}/>
+        <InputButton value={3} setRateNote={setRateNote}/>
+        <InputButton value={4} setRateNote={setRateNote}/>
+        <InputButton value={5} setRateNote={setRateNote}/>
         </div>
 
         <button className="bg-orange w-full py-3 rounded-3xl uppercase font-bold
